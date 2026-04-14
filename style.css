@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-img{
+.logo-mario{
     width: 200px;
 }
 
@@ -26,4 +26,8 @@ button:hover{
 
 button:active{
     opacity: 0.6;
+}
+
+.logo-mario-luigi{
+    width: 500px;
 }
