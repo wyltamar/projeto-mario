@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    display: flex;
+}
+
 .logo-mario{
     width: 200px;
 }
@@ -30,4 +34,12 @@ button:active{
 
 .logo-mario-luigi{
     width: 500px;
+}
+
+.div-1{
+    background-color: green;
+}
+
+.div-2{
+    background-color: blue;
 }
