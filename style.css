@@ -73,10 +73,37 @@ video {
 }
 
 p{
-    color: white;
+    color: #ffffff;
     font-size: 30px;
     font-weight: 700;
     text-align: justify;
     line-height: 50px;
 
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center; /* alinha os elementos verticalmente */
+    gap: 35px;
+    padding: 25px;
+}
+
+.cabecalho img{
+    width: 90px;
+}
+
+.cabecalho a{
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;   
+}
+
+.cabecalho a:hover{
+    color: #C51111;
+}
+
+.cabecalho a:active{
+    opacity: 0.6;
+    font-size: 42px;
 }
