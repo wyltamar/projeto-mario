@@ -98,6 +98,7 @@ p{
     font-weight: bold;
     color: #ffffff;
     cursor: pointer;   
+    transition: color 0.3s ease-in-out;
 }
 
 .cabecalho a:hover{
