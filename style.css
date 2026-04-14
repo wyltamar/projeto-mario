@@ -19,7 +19,7 @@ button {
     background-color: #C51111;
     color: #ffffff;
     font-weight: bold;
-    border-radius: 3px;
+    border-radius: 10px;
     border: none;
     width: 350px;
     height: 110px;
@@ -36,6 +36,7 @@ button:hover {
 
 button:active {
     opacity: 0.6;
+    width: 355px;
 }
 
 .logo-mario-luigi {
@@ -74,7 +75,7 @@ video {
 
 p{
     color: #ffffff;
-    font-size: 30px;
+    font-size: 32px;
     font-weight: 700;
     text-align: justify;
     line-height: 50px;
