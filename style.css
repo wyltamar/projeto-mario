@@ -9,6 +9,7 @@
 
 body {
     height: 100vh;
+    background-size: cover;
 }
 
 .logo-mario {
@@ -27,6 +28,7 @@ button {
     text-transform: uppercase;
     margin-top: 30px;
     font-size: 30px;
+    transition: all 0.3s ease;
     
 }
 
@@ -36,7 +38,7 @@ button:hover {
 
 button:active {
     opacity: 0.6;
-    width: 355px;
+    width: 340px;
 }
 
 .logo-mario-luigi {
@@ -78,7 +80,7 @@ p{
     font-size: 32px;
     font-weight: 700;
     text-align: justify;
-    line-height: 50px;
+    line-height: 40px;
 
 }
 
@@ -98,7 +100,7 @@ p{
     font-weight: bold;
     color: #ffffff;
     cursor: pointer;   
-    transition: color 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .cabecalho a:hover{
@@ -108,4 +110,28 @@ p{
 .cabecalho a:active{
     opacity: 0.6;
     font-size: 42px;
+}
+
+.caixa-link-whatsapp{
+    position: fixed;
+    bottom: 30px;
+    right: 50px;
+}
+
+.link-whats-app img{
+    width: 100px;
+}
+
+.link-whats-app{
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.link-whats-app:hover{
+    opacity: 0.8;
+}
+
+.link-whats-app:active{
+    opacity: 0.6;
+    transform: scale(0.97);
 }
