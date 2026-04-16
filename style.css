@@ -12,7 +12,7 @@ body {
 }
 
 .logo-mario {
-    width: 350px;
+    width: 250px;
 }
 
 button {
@@ -21,14 +21,14 @@ button {
     font-weight: bold;
     border-radius: 10px;
     border: none;
-    width: 350px;
-    height: 110px;
+    width: 180px;
+    height: 50px;
     cursor: pointer;
     text-transform: uppercase;
-    margin-top: 30px;
-    font-size: 30px;
+    margin-top: 15px;
+    font-size: 15px;
     transition: all 0.3s ease;
-    
+
 }
 
 button:hover {
@@ -37,11 +37,11 @@ button:hover {
 
 button:active {
     opacity: 0.6;
-    width: 340px;
+    transform: scale(0.95);
 }
 
 .logo-mario-luigi {
-    width: 500px;
+    width: 300px;
 }
 
 .caixa-info-texto {
@@ -52,7 +52,7 @@ button:active {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 100px;
+    padding: 50px;
     height: 100vh;
 }
 
@@ -68,94 +68,98 @@ video {
 }
 
 .mascara-video {
-    background: linear-gradient(109deg,rgba(10, 12, 16, 0.99) 15%,rgba(10, 12, 16, 0.7) 50%,rgba(10, 12, 16, 0.99) 85%);
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
     position: fixed;
     top: 0;
     width: 100%;
     height: 100%;
 }
 
-p{
+p {
     color: #ffffff;
-    font-size: 32px;
-    font-weight: 700;
+    font-size: 16px;
+    font-weight: 400;
     text-align: justify;
-    line-height: 40px;
+    line-height: 20px;
 
 }
 
-.cabecalho{
+.cabecalho {
     display: flex;
     align-items: center; /* alinha os elementos verticalmente */
-    gap: 35px;
-    padding: 25px;
+    gap: 30px;
+    padding: 20px;
 }
 
-.cabecalho img{
-    width: 90px;
+.cabecalho img {
+    width: 70px;
 }
 
-.cabecalho a{
-    font-size: 40px;
+.cabecalho a {
+    font-size: 20px;
     font-weight: bold;
     color: #ffffff;
-    cursor: pointer;   
-    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    transition: all 0.2s ease;
 }
 
-.cabecalho a:hover{
+.cabecalho a:hover {
     color: #C51111;
 }
 
-.cabecalho a:active{
+.cabecalho a:active {
     opacity: 0.6;
-    font-size: 42px;
+    transform: scale(0.98);
 }
 
-.caixa-link-whatsapp{
+.caixa-link-whatsapp {
     position: fixed;
-    bottom: 30px;
-    right: 50px;
+    bottom: 10px;
+    right: 20px;
 }
 
-.link-whats-app img{
-    width: 100px;
+.link-whats-app img {
+    width: 60px;
 }
 
-.link-whats-app{
+.link-whats-app {
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
-.link-whats-app:hover{
+.link-whats-app:hover {
     opacity: 0.8;
 }
 
-.link-whats-app:active{
+.link-whats-app:active {
     opacity: 0.6;
     transform: scale(0.97);
 }
 
-form{
+form {
     background-color: #ffffff;
 
     position: fixed;
-    top: 200px;
-    left: 200px;
+    top: 25%;
+    left: -340px;
+    
+
+    /* right: 70%;
+    transform: translateX(-50%); */
 
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
 
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 3px;
     border: 1px solid gray;
     width: 350px;
-
+    z-index: 1;
 
 }
 
-form button{
+form button {
     width: 100%;
     height: 60px;
     font-size: 18px;
@@ -163,11 +167,12 @@ form button{
     transition: all 0.2s ease;
 }
 
-form button:active{
+form button:active {
     width: 98%
 }
 
-form input, textarea{
+form input,
+textarea {
     height: 40px;
     padding-left: 10px;
     border-radius: 3px;
@@ -177,12 +182,23 @@ form input, textarea{
     margin-top: 5px;
 }
 
-form textarea{
+form textarea {
     height: 100px;
     padding-top: 5px;
 }
 
-form input::placeholder, textarea::placeholder{
+form input::placeholder,
+textarea::placeholder {
     font-size: 16px;
     margin-top: 5px;
 }
+
+/* .mascara-formulario {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    ;
+    top: 0;
+
+} */
