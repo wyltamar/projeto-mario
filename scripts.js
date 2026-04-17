@@ -22,6 +22,7 @@ function mostrarMascaraForm(){
 
 function esconderFormulario(){
     formulario.style.left = "-340px"
+    formulario.style.transform = "translateX(0)"
     mascaraForm.style.visibility = "hidden"
     mascaraForm.style.transition = "visibility 0.5s ease-in-out"
 }
