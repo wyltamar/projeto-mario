@@ -17,6 +17,7 @@ function mostrarMascaraForm(){
                                     rgba(10, 12, 16, 0.99) 15%,
                                     rgba(10, 12, 16, 0.7) 50%,
                                     rgba(10, 12, 16, 0.99) 85%)`
+    mascaraForm.style.visibility = "visible"
 }
 
 function esconderFormulario(){
