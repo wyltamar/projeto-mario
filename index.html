@@ -51,14 +51,20 @@
         </a>
     </div>
 
-    <form class="formulario">
-        <input type="text" placeholder="Informe seu nome">
-        <input type="text" placeholder="Informe seu e-mail">
-        <textarea placeholder="Digite do que você precisa aqui ..."></textarea>
-        <button>PEDIR ORÇAMENTO</button>
+    <form 
+       class="formulario"
+       action="https://formcarry.com/s/pyjex-4zyMr" 
+       method="POST"
+       enctype="multipart/form-data">
+
+        <input type="text" name="nome" placeholder="Informe seu nome">
+        <input type="email" name="email" placeholder="Informe seu e-mail">
+        <textarea placeholder="Digite do que você precisa aqui ..." name="mensagem"></textarea>
+        <button type="submit">PEDIR ORÇAMENTO</button>
     </form>
     <div onclick="esconderFormulario()" class="mascara-formulario"></div>
 
 </body>
-    <script src="./scripts.js"></script>
+<script src="./scripts.js"></script>
+
 </html>
